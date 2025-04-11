@@ -1,0 +1,12 @@
+Комплект (кортеж, торка, англ. tuple)
+● Неизменяема наредена последователност (може и празна)
+от индексируеми елементи от произволен тип (типове).
+>>> type ((1,2,3))
+<class 'tuple'>
+>>> type ((1,False,"qwerty"))
+<class 'tuple'>
+>>> type (())
+<class 'tuple'>
+
+https://www.w3schools.com/python/python_tuples.asp
+https://www.ezik.bg/pluginfile.php/50252/mod_resource/content/1/ID_PL06.pdf
