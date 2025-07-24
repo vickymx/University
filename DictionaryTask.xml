@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE dictionary SYSTEM "dictionary.dtd">
+<!--  -->
+<dictionary>
+  <word>
+    <lemma pos="V" aspect="несв." conj="1">играя</lemma>
+    <morph>
+      <personal_forms>
+        <form tense="сегашно" person="1" number="ед.">играя</form>
+        <form tense="сегашно" person="2" number="ед.">играеш</form>
+        <form tense="сегашно" person="3" number="ед.">играе</form>
+      </personal_forms>
+      <participles>
+          <!-- Причастни форми -->
+        <participle type="мин.св.д." number="ед." gender="м." article="нечл.">играл</participle>
+        <participle type="мин.св.д." number="ед." gender="ж." article="нечл.">играла</participle>
+        <participle type="стр." number="ед." gender="м." article="нечл.">игран</participle>
+        <participle type="сег.д." number="ед." gender="м." article="нечл.">играещ</participle>
+      </participles>
+      <gerund>играейки</gerund>
+      <imperative>
+        <singular>играй</singular>
+        <plural>играйте</plural>
+      </imperative>
+    </morph>
+    <syn>
+        <!-- Значение 1 -->
+        <sense>
+            <def src="D"><a ref="агенс">някой</a> изпълнява роля в <a ref="тема">сценична постановка</a></def>
+            <frame>
+                <arg semantic_role="агенс" function="подлог">
+                    <syntactic_structure><NP/><pro/></syntactic_structure>
+                    <selective_restrictions><sel_restr>актьор</sel_restr></selective_restrictions>
+                </arg>
+            </frame>
+            <example src="D"><a ref="агенс">Актьорът</a> <p>играе</p> <a ref="тема">ролята на краля</a>.</example>
+            <example src="D"><a ref="агенс">Те</a> <p>играят</p> <a ref="тема">в пиесата</a>.</example>
+            <example src="D"><a ref="агенс">Тя</a> <p>играе</p> <a ref="тема">главната роля</a>.</example>
+            <example src="D"><a ref="агенс">Групата</a> <p>играе</p> <a ref="тема">в театъра</a>.</example>
+            <example src="D"><a ref="агенс">Момичето</a> <p>играе</p> <a ref="тема">Пепеляшка</a>.</example>
+            <example src="D"><a ref="агенс">Момчетата</a> <p>играят</p> <a ref="тема">разбойници</a>.</example>
+        </sense>
+        <!-- Значение 2 -->
+        <sense>
+            <def src="D"><a ref="агенс">някой</a> участва в <a ref="тема">игра за развлечение</a></def>
+            <frame>
+                <arg semantic_role="агенс" function="подлог">
+                    <syntactic_structure><NP/><pro/></syntactic_structure>
+                    <selective_restrictions><sel_restr>дете</sel_restr></selective_restrictions>
+                </arg>
+            </frame>
+            <example src="D"><a ref="агенс">Децата</a> <p>играят</p> <a ref="тема">навън</a>.</example>
+            <example src="D"><a ref="агенс">Момчето</a> <p>играе</p> <a ref="тема">с колички</a>.</example>
+            <example src="D"><a ref="агенс">Тя</a> <p>играе</p> <a ref="тема">на криеница</a>.</example>
+            <example src="D"><a ref="агенс">Кучето</a> <p>играе</p> <a ref="тема">с топка</a>.</example>
+            <example src="D"><a ref="агенс">Ние</a> <p>Играем</p> <a ref="тема">настолни игри</a>.</example>
+            <example src="D"><a ref="агенс">Групата</a> <p>играе</p> <a ref="тема">на поляната</a>.</example>
+        </sense>
+        
+        <!-- Значение 3 -->
+        <sense>
+            <def src="D"><a ref="агенс">някой</a> участва в <a ref="тема">спортно състезание</a></def>
+            <frame>
+                <arg semantic_role="агенс" function="подлог">
+                    <syntactic_structure><NP/><pro/></syntactic_structure>
+                    <selective_restrictions><sel_restr>спортен участник</sel_restr></selective_restrictions>
+                </arg>
+            </frame>
+            <example src="D"><a ref="агенс">Отборът</a> <p>играе</p> <a ref="тема">футбол</a>.</example>
+            <example src="D"><a ref="агенс">Той</a> <p>играе</p> <a ref="тема">тенис</a>.</example>
+            <example src="D"><a ref="агенс">Ние</a> <p>играем</p> <a ref="тема">волейбол</a>.</example>
+            <example src="D"><a ref="агенс">Тя</a> <p>играе</p> <a ref="тема">на турнира</a>.</example>
+            <example src="D"><a ref="агенс">Съзтезателят</a> <p>играе</p> <a ref="тема">финалния мач</a>.</example>
+            <example src="D"><a ref="агенс">Младежите</a> <p>играят</p> <a ref="тема">баскетбол</a>.</example>
+        </sense>
+        
+        <!-- Значение 4 -->
+        <sense>
+            <def src="D"><a ref="агенс">нещо</a> извършва <a ref="тема">метафорично движение</a></def>
+            <frame>
+                <arg semantic_role="агенс" function="подлог">
+                    <syntactic_structure><NP/><pro/></syntactic_structure>
+                    <selective_restrictions><sel_restr>естествено явление</sel_restr></selective_restrictions>
+                </arg>
+            </frame>
+            <example src="D"><a ref="агенс">Светлината</a> <p>играе</p> <a ref="тема">върху водата</a>.</example>
+            <example src="D"><a ref="агенс">Сянката</a> <p>играе</p> <a ref="тема">по стената</a>.</example>
+            <example src="D"><a ref="агенс">Блясъкът</a> <p>играе</p> <a ref="тема">в очите ѝ</a>.</example>
+            <example src="D"><a ref="агенс">Пламъкът</a> <p>играе</p> <a ref="тема">в камината</a>.</example>
+            <example src="D"><a ref="агенс">Вълните</a> <p>играят</p> <a ref="тема">на брега</a>.</example>
+            <example src="D"><a ref="агенс">Звездите</a> <p>играят</p> <a ref="тема">в небето</a>.</example>
+        </sense>
+        
+        <!-- Значение 5 -->
+        <sense>
+            <def src="D"><a ref="агенс">някой</a> представя <a ref="тема">музика пред публика</a></def>
+            <frame>
+                <arg semantic_role="агенс" function="подлог">
+                    <syntactic_structure><NP/><pro/></syntactic_structure>
+                    <selective_restrictions><sel_restr>музикант</sel_restr></selective_restrictions>
+                </arg>
+            </frame>
+            <example src="D"><a ref="агенс">DJ-ят</a> <p>играе</p> <a ref="тема">песен на сцената</a>.</example>
+            <example src="D"><a ref="агенс">Тя</a> <p>играе</p> <a ref="тема">хаус музика</a>.</example>
+            <example src="D"><a ref="агенс">Музикантът</a> <p>играе</p> <a ref="тема">джаз сет</a>.</example>
+            <example src="D"><a ref="агенс">Те</a> <p>играят</p> <a ref="тема">на фестивала</a>.</example>
+            <example src="D"><a ref="агенс">Той</a> <p>играе</p> <a ref="тема">техно в клуба</a>.</example>
+            <example src="D"><a ref="агенс">Групата</a> <p>играе</p> <a ref="тема">на живо</a>.</example>
+        </sense>
+        
+        <!-- Значение 6 -->
+        <sense>
+            <def src="D"><a ref="агенс">някой</a> участва във <a ref="тема">видео игра</a></def>
+            <frame>
+                <arg semantic_role="агенс" function="подлог">
+                    <syntactic_structure><NP/><pro/></syntactic_structure>
+                    <selective_restrictions><sel_restr>играч</sel_restr></selective_restrictions>
+                </arg>
+            </frame>
+            <example src="D"><a ref="агенс">Те</a> <p>играят</p> <a ref="тема">Minecraft</a>.</example>
+            <example src="D"><a ref="агенс">Той</a> <p>играе</p> <a ref="тема">League of Legends</a>.</example>
+            <example src="D"><a ref="агенс">Аз</a> <p>играя</p> <a ref="тема">на конзола</a>.</example>
+            <example src="D"><a ref="агенс">Тя</a> <p>играе</p> <a ref="тема">симулатор</a>.</example>
+            <example src="D"><a ref="агенс">Геймърът</a> <p>играе</p> <a ref="тема">на състезание</a>.</example>
+            <example src="D"><a ref="агенс">Ние</a> <p>играем</p> <a ref="тема">онлайн</a>.</example>
+        </sense>
+        
+        <!-- Значение 7 -->
+        <sense>
+            <def src="D"><a ref="агенс">някой</a> действа според <a ref="тема">чужда роля</a></def>
+            <frame>
+                <arg semantic_role="агенс" function="подлог">
+                    <syntactic_structure><NP/><pro/></syntactic_structure>
+                    <selective_restrictions><sel_restr>индивид</sel_restr></selective_restrictions>
+                </arg>
+            </frame>
+            <example src="D"><a ref="агенс">Министърът</a> <p>играе</p> <a ref="тема">по чужда свирка</a>.</example>
+            <example src="D"><a ref="агенс">Тя</a> <p>играе</p> <a ref="тема">по сценарий</a>.</example>
+            <example src="D"><a ref="агенс">Ръководството</a> <p>играе</p> <a ref="тема">по заповед</a>.</example>
+            <example src="D"><a ref="агенс">Той</a> <p>играе</p> <a ref="тема">чужда игра</a>.</example>
+            <example src="D"><a ref="агенс">Фирмата</a> <p>играе</p> <a ref="тема">под пазарен натиск</a>.</example>
+            <example src="D"><a ref="агенс">Ние</a> <p>играем</p> <a ref="тема">по нареждане</a>.</example>
+        </sense>
+        
+        <!-- Значение 8 -->
+        <sense>
+            <def src="D"><a ref="агенс">някой</a> манипулира <a ref="тема">чувствата или възприятията на друг</a></def>
+            <frame>
+                <arg semantic_role="агенс" function="подлог">
+                    <syntactic_structure><NP/><pro/></syntactic_structure>
+                    <selective_restrictions><sel_restr>човек</sel_restr></selective_restrictions>
+                </arg>
+            </frame>
+            <example src="D"><a ref="агенс">Той</a> <p>играе</p> <a ref="тема">с нея</a>.</example>
+            <example src="D"><a ref="агенс">Тя</a> <p>играе</p> <a ref="тема">игра на доверие</a>.</example>
+            <example src="D"><a ref="агенс">Момчето</a> <p>играе</p> <a ref="тема">ролята на добрия</a>.</example>
+            <example src="D"><a ref="агенс">Те</a> <p>играят</p> <a ref="тема">психологическа игра</a>.</example>
+            <example src="D"><a ref="агенс">Той</a> <p>играе</p> <a ref="тема">с чужди усещания</a>.</example>
+            <example src="D"><a ref="агенс">Някой</a> <p>играе</p> <a ref="тема">на двойствена роля</a>.</example>
+        </sense>
+        <!-- Значение 9 -->
+        <sense>
+            <def src="D"><a ref="агенс">някой</a> предприема <a ref="тема">рисково действие</a></def>
+            <frame>
+                <arg semantic_role="агенс" function="подлог">
+                    <syntactic_structure><NP/><pro/></syntactic_structure>
+                    <selective_restrictions><sel_restr>актьор</sel_restr></selective_restrictions>
+                </arg>
+            </frame>
+            <example src="D"><a ref="агенс">Бизнесменът</a> <p>играе</p> <a ref="тема">висок риск</a>.</example>
+            <example src="D"><a ref="агенс">Той</a> <p>играе</p> <a ref="тема">с акции</a>.</example>
+            <example src="D"><a ref="агенс">Групата</a> <p>играе</p> <a ref="тема">на борсата</a>.</example>
+            <example src="D"><a ref="агенс">Ние</a> <p>играем</p> <a ref="тема">стратегически</a>.</example>
+            <example src="D"><a ref="агенс">Клиентът</a> <p>играе</p> <a ref="тема">с бюджета</a>.</example>
+            <example src="D"><a ref="агенс">Тя</a> <p>играе</p> <a ref="тема">нечестно</a>.</example>
+        </sense>
+        
+        <!-- Значение 10 -->
+        <sense>
+            <def src="D"><a ref="агенс">някой</a> извършва <a ref="тема">неочаквано действие</a></def>
+            <frame>
+                <arg semantic_role="агенс" function="подлог">
+                    <syntactic_structure><NP/><pro/></syntactic_structure>
+                    <selective_restrictions><sel_restr>човек</sel_restr></selective_restrictions>
+                </arg>
+            </frame>
+            <example src="D"><a ref="агенс">Някой</a> <p>играе</p> <a ref="тема">номер</a>.</example>
+            <example src="D"><a ref="агенс">Тя</a> <p>играе</p> <a ref="тема">шега на приятел</a>.</example>
+            <example src="D"><a ref="агенс">Той</a> <p>играе</p> <a ref="тема">сценка за забавление</a>.</example>
+            <example src="D"><a ref="агенс">Учениците</a> <p>играят</p> <a ref="тема">пакост на учителя</a>.</example>
+            <example src="D"><a ref="агенс">Ние</a> <p>играем</p> <a ref="тема">номер на колегата</a>.</example>
+            <example src="D"><a ref="агенс">Приятелят</a> <p>играе</p> <a ref="тема">изненада</a>.</example>
+        </sense>
+  </syn>
+  </word>
+    
+    <word>
+        <lemma pos="V" aspect="несв." conj="2">пиша</lemma>
+        <morph>
+            <personal_forms>
+                <form tense="сегашно" person="1" number="ед.">пиша</form>
+                <form tense="сегашно" person="2" number="ед.">пишеш</form>
+                <form tense="сегашно" person="3" number="ед.">пише</form>
+            </personal_forms>
+            <participles>
+                <!-- Причастни форми -->
+                <participle type="мин.св.д." number="ед." gender="м." article="нечл.">писал</participle>
+                <participle type="мин.св.д." number="ед." gender="ж." article="нечл.">писала</participle>
+                <participle type="стр." number="ед." gender="м." article="нечл.">писан</participle>
+                <participle type="сег.д." number="ед." gender="м." article="нечл.">пишещ</participle>
+            </participles>
+            <gerund>пишейки</gerund>
+            <imperative>
+                <singular>пиши</singular>
+                <plural>пишете</plural>
+            </imperative>
+        </morph>
+        <syn>
+            <!-- Значение 1 -->
+            <sense>
+                <def src="WN"><a ref="агенс">някой</a> създава <a ref="тема">писмо</a></def>
+                <frame>
+                    <arg semantic_role="агенс" function="подлог">
+                        <syntactic_structure><NP/><pro/><CP/></syntactic_structure>
+                        <selective_restrictions>
+                            <sel_restr>човек</sel_restr>
+                        </selective_restrictions>
+                    </arg>
+                </frame>
+                <example src="D"><a ref="агенс">Той</a> <p>пише</p> <a ref="тема">писмо</a>.</example>
+                <example src="D"><a ref="агенс">Тя</a> <p>пише</p> <a ref="тема">на родителите си</a>.</example>
+                <example src="D"><a ref="агенс">Ученикът</a> <p>пише</p> <a ref="тема">домашно</a>.</example>
+                <example src="D"><a ref="агенс">Ние</a> <p>пишем</p> <a ref="тема">съчинение</a>.</example>
+                <example src="D"><a ref="агенс">Децата</a> <p>пишат</p> <a ref="тема">поздрав</a>.</example>
+                <example src="D"><a ref="агенс">Баба</a> <p>пише</p> <a ref="тема">пожелание</a>.</example>
+            </sense>
+            <!-- Значение 2 -->
+            <sense>
+                <def src="D"><a ref="агенс">някой</a> създава <a ref="тема">литературно произведение</a></def>
+                <frame>
+                    <arg semantic_role="агенс" function="подлог">
+                        <syntactic_structure><NP/><pro/><CP/></syntactic_structure>
+                        <selective_restrictions>
+                            <sel_restr>писател</sel_restr>
+                        </selective_restrictions>
+                    </arg>
+                </frame>
+                <example src="D"><a ref="агенс">Авторът</a> <p>пише</p> <a ref="тема">роман</a>.</example>
+                <example src="D"><a ref="агенс">Той</a> <p>пише</p> <a ref="тема">разказ</a>.</example>
+                <example src="D"><a ref="агенс">Поетът</a> <p>пише</p> <a ref="тема">стихотворение</a>.</example>
+                <example src="D"><a ref="агенс">Те</a> <p>пишат</p> <a ref="тема">пиеса</a>.</example>
+                <example src="D"><a ref="агенс">Тя</a> <p>пише</p> <a ref="тема">книга</a>.</example>
+                <example src="D"><a ref="агенс">Драматургът</a> <p>пише</p> <a ref="тема">сценарий</a>.</example>
+            </sense>
+            <!-- Значение 3 -->
+            <sense>
+                <def src="D"><a ref="агенс">някой</a> отбелязва <a ref="тема">нещо</a> с писмен знак</def>
+                <frame>
+                    <arg semantic_role="агенс" function="подлог">
+                        <syntactic_structure><NP/><pro/></syntactic_structure>
+                        <selective_restrictions>
+                            <sel_restr>ученик</sel_restr>
+                        </selective_restrictions>
+                    </arg>
+                </frame>
+                <example src="D"><a ref="агенс">Аз</a> <p>пиша</p> <a ref="тема">дата</a>.</example>
+                <example src="D"><a ref="агенс">Ти</a> <p>пишеш</p> <a ref="тема">име</a>.</example>
+                <example src="D"><a ref="агенс">Той</a> <p>пише</p> <a ref="тема">числа</a>.</example>
+                <example src="D"><a ref="агенс">Учителят</a> <p>пише</p> <a ref="тема">на дъската</a>.</example>
+                <example src="D"><a ref="агенс">Секретарката</a> <p>пише</p> <a ref="тема">записка</a>.</example>
+                <example src="D"><a ref="агенс">Те</a> <p>пишат</p> <a ref="тема">формуляр</a>.</example>
+            </sense>
+            <!-- Значение 4 -->
+            <sense>
+                <def src="D"><a ref="агенс">някой</a> съставя <a ref="тема">официален документ</a></def>
+                <frame>
+                    <arg semantic_role="агенс" function="подлог">
+                        <syntactic_structure><NP/><pro/></syntactic_structure>
+                        <selective_restrictions>
+                            <sel_restr>служител</sel_restr>
+                        </selective_restrictions>
+                    </arg>
+                </frame>
+                <example src="D"><a ref="агенс">Юристът</a> <p>пише</p> <a ref="тема">договор</a>.</example>
+                <example src="D"><a ref="агенс">Нотарият</a> <p>пише</p> <a ref="тема">пълномощно</a>.</example>
+                <example src="D"><a ref="агенс">Администраторът</a> <p>пише</p> <a ref="тема">уведомление</a>.</example>
+                <example src="D"><a ref="агенс">Те</a> <p>пишат</p> <a ref="тема">протокол</a>.</example>
+                <example src="D"><a ref="агенс">Служителят</a> <p>пише</p> <a ref="тема">рапорт</a>.</example>
+                <example src="D"><a ref="агенс">Тя</a> <p>пише</p> <a ref="тема">молба</a>.</example>
+            </sense>
+            <!-- Значение 5 -->
+            <sense>
+                <def src="D"><a ref="агенс">някой</a> съставя <a ref="тема">ръкописен текст</a></def>
+                <frame>
+                    <arg semantic_role="агенс" function="подлог">
+                        <syntactic_structure><NP/><pro/></syntactic_structure>
+                        <selective_restrictions>
+                            <sel_restr>човек</sel_restr>
+                        </selective_restrictions>
+                    </arg>
+                </frame>
+                <example src="D"><a ref="агенс">Писателят</a> <p>пише</p> <a ref="тема">приказка</a>.</example>
+                <example src="D"><a ref="агенс">Журналистът</a> <p>пише</p> <a ref="тема">статия</a>.</example>
+                <example src="D"><a ref="агенс">Сценаристът</a> <p>пише</p> <a ref="тема">следващата сцена</a>.</example>
+                <example src="D"><a ref="агенс">Студентът</a> <p>пише</p> <a ref="тема">реферат</a>.</example>
+                <example src="D"><a ref="агенс">Тя</a> <p>пише</p> <a ref="тема">поема</a>.</example>
+                <example src="D"><a ref="агенс">Тя</a> <p>пише</p> <a ref="тема">молба за отпуска</a>.</example>
+            </sense>
+            
+            <!-- Значение 6 -->
+            <sense>
+                <def src="D"><a ref="агенс">някой</a> съставя <a ref="тема">дигитален текст</a></def>
+                <frame>
+                    <arg semantic_role="агенс" function="подлог">
+                        <syntactic_structure><NP/><pro/></syntactic_structure>
+                        <selective_restrictions>
+                            <sel_restr>човек</sel_restr>
+                        </selective_restrictions>
+                    </arg>
+                </frame>
+                <example src="D"><a ref="агенс">Програмистът</a> <p>пише</p> <a ref="тема">код</a>.</example>
+                <example src="D"><a ref="агенс">Блогърът</a> <p>пише</p> <a ref="тема">статия</a>.</example>
+                <example src="D"><a ref="агенс">Тя</a> <p>пише</p> <a ref="тема">речник в XML</a>.</example>
+                <example src="D"><a ref="агенс">Те</a> <p>пишат</p> <a ref="тема">програма</a>.</example>
+                <example src="D"><a ref="агенс">Служителят</a> <p>пише</p> <a ref="тема">имейл</a>.</example>
+                <example src="D"><a ref="агенс">Тя</a> <p>пише</p> <a ref="тема">публикация във facebook</a>.</example>
+            </sense>
+            <!-- Значение 7 -->
+            <sense>
+                <def src="D"><a ref="агенс">някой</a> съставя <a ref="тема">учебен текст</a></def>
+                <frame>
+                    <arg semantic_role="агенс" function="подлог">
+                        <syntactic_structure><NP/><pro/></syntactic_structure>
+                        <selective_restrictions>
+                            <sel_restr>учител</sel_restr>
+                        </selective_restrictions>
+                    </arg>
+                </frame>
+                <example src="D"><a ref="агенс">Учителят</a> <p>пише</p> <a ref="тема">условието на задачата</a>.</example>
+                <example src="D"><a ref="агенс">Преподавателят</a> <p>пише</p> <a ref="тема">тест</a>.</example>
+                <example src="D"><a ref="агенс">Професорът</a> <p>пише</p> <a ref="тема">оценка</a>.</example>
+                <example src="D"><a ref="агенс">Те</a> <p>пишат</p> <a ref="тема">диктовка</a>.</example>
+                <example src="D"><a ref="агенс">Той</a> <p>пише</p> <a ref="тема">научна статия</a>.</example>
+                <example src="D"><a ref="агенс">Ние</a> <p>пишем</p> <a ref="тема">нов учебен план</a>.</example>
+            </sense>
+            <!-- Значение 8 -->
+            <sense>
+                <def src="D"><a ref="агенс">някой</a> съставя <a ref="тема">инструкция</a></def>
+                <frame>
+                    <arg semantic_role="агенс" function="подлог">
+                        <syntactic_structure><NP/><pro/></syntactic_structure>
+                        <selective_restrictions>
+                            <sel_restr>човек</sel_restr>
+                        </selective_restrictions>
+                    </arg>
+                </frame>
+                <example src="D"><a ref="агенс">Управителят</a> <p>пише</p> <a ref="тема">правила</a>.</example>
+                <example src="D"><a ref="агенс">Лекарят</a> <p>пише</p> <a ref="тема">стъпки за безопасност</a>.</example>
+                <example src="D"><a ref="агенс">Родителят</a> <p>пише</p> <a ref="тема">задължения на децата</a>.</example>
+                <example src="D"><a ref="агенс">Те</a> <p>пишат</p> <a ref="тема">ограничения на платформата</a>.</example>
+                <example src="D"><a ref="агенс">Съпругата</a> <p>пише</p> <a ref="тема">списък за пазаруване</a>.</example>
+                <example src="D"><a ref="агенс">Ние</a> <p>пишем</p> <a ref="тема">стъпки за репродуциране на бъг</a>.</example>
+            </sense>
+            <!-- Значение 9 -->
+            <sense>
+                <def src="D"><a ref="агенс">някой</a> изготвя <a ref="тема">график</a></def>
+                <frame>
+                    <arg semantic_role="агенс" function="подлог">
+                        <syntactic_structure><NP/><pro/></syntactic_structure>
+                        <selective_restrictions>
+                            <sel_restr>човек</sel_restr>
+                        </selective_restrictions>
+                    </arg>
+                </frame>
+                <example src="D"><a ref="агенс">Ръководителят</a> <p>пише</p> <a ref="тема">график за работа</a>.</example>
+                <example src="D"><a ref="агенс">Жената</a> <p>пише</p> <a ref="тема">график за седмицата</a>.</example>
+                <example src="D"><a ref="агенс">Мениджърът</a> <p>пише</p> <a ref="тема">седмичен график</a>.</example>
+                <example src="D"><a ref="агенс">Директорът</a> <p>пише</p> <a ref="тема">график за обученията</a>.</example>
+                <example src="D"><a ref="агенс">Служителят</a> <p>пише</p> <a ref="тема">смените</a>.</example>
+                <example src="D"><a ref="агенс">Ние</a> <p>пишем</p> <a ref="тема">молба за промяна на график</a>.</example>
+            </sense>
+            <!-- Значение 10 -->
+            <sense>
+                <def src="D"><a ref="агенс">някой</a> съставя <a ref="тема">текст</a></def>
+                <frame>
+                    <arg semantic_role="агенс" function="подлог">
+                        <syntactic_structure><NP/><pro/></syntactic_structure>
+                        <selective_restrictions>
+                            <sel_restr>човек</sel_restr>
+                        </selective_restrictions>
+                    </arg>
+                </frame>
+                <example src="D"><a ref="агенс">Момичето</a> <p>пише</p> <a ref="тема">лексикон</a>.</example>
+                <example src="D"><a ref="агенс">Ние</a> <p>пишем</p> <a ref="тема">fanfiction</a>.</example>
+                <example src="D"><a ref="агенс">Потребителят</a> <p>пише</p> <a ref="тема">паролата си</a>.</example>
+                <example src="D"><a ref="агенс">Те</a> <p>пишат</p> <a ref="тема">задачи</a>.</example>
+                <example src="D"><a ref="агенс">Машината</a> <p>пише</p> <a ref="тема">книгата</a>.</example>
+                <example src="D"><a ref="агенс">Тя</a> <p>пише</p> <a ref="тема">предизвестие</a>.</example>
+            </sense>
+        </syn>
+    </word>
+</dictionary>

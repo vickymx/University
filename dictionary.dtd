@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT dictionary (word+)>
+<!ELEMENT word (lemma, morph, syn)>
+<!ELEMENT lemma (#PCDATA)>
+<!ATTLIST lemma 
+    pos (V|N|A|Adv|Pron) #REQUIRED
+    aspect (св.|несв.|двувидов) #REQUIRED
+    conj (1|2|3|изкл.) #REQUIRED   
+    def (безличен|третоличен|множественолични) #IMPLIED
+    refl (се|си) #IMPLIED
+>
+<!ELEMENT morph (personal_forms, participles, gerund?, imperative?)>
+<!ELEMENT personal_forms (form+)>
+<!ELEMENT form (#PCDATA)>
+<!ATTLIST form
+    tense (сегашно|аорист|имперфект) #REQUIRED
+    person (1|2|3) #REQUIRED
+    number (ед.|мн.) #REQUIRED
+>
+
+<!ELEMENT participles (participle+)>
+<!ELEMENT participle (#PCDATA)>
+<!ATTLIST participle
+   type (мин.св.д.|мин.несв.д.|стр.|сег.д.) #REQUIRED
+   number (ед.|мн.) #REQUIRED
+   gender (м.|ж.|ср.) #IMPLIED
+   article (чл.|нечл.) #REQUIRED
+>
+<!ELEMENT gerund (#PCDATA)>
+<!ELEMENT imperative (singular, plural)>
+<!ELEMENT singular (#PCDATA)>
+<!ELEMENT plural (#PCDATA)>
+
+<!ELEMENT syn (sense+)>
+<!ELEMENT sense (def, frame, example, example, example, example, example+)>
+<!ELEMENT def (#PCDATA|a)*>
+<!ATTLIST def
+   src (WN|D|констр.|друго) #REQUIRED
+>
+<!--WN - WordNet; D - многотомния тълковен речник; конструирана от нас дефиниция; друга-->
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a
+   ref (агенс|ефектор|екпериенцер|локатив|бенефициент|тема|пациенс) #REQUIRED
+>
+<!ELEMENT frame (arg?, arg?, arg?)>
+<!ELEMENT arg (syntactic_structure, selective_restrictions)>
+<!ATTLIST arg
+   semantic_role (агенс|ефектор|екпериенцер|локатив|бенефициент|тема|пациенс) #REQUIRED
+   function (подлог|пр.доп.|непр.доп.|обст.|ск.опр.) #REQUIRED
+>
+<!ELEMENT syntactic_structure (NP|AP|AdvP|PP|pro|CP|Pron)+>
+<!ELEMENT NP EMPTY>
+<!ELEMENT AP EMPTY>
+<!ELEMENT AdvP EMPTY>
+<!ELEMENT PP EMPTY>
+<!ELEMENT pro EMPTY>
+<!ELEMENT CP EMPTY>
+<!ELEMENT Pron EMPTY>
+<!ELEMENT selective_restrictions (sel_restr+)>
+<!ELEMENT sel_restr (#PCDATA)>
+<!ELEMENT example (#PCDATA|a|p)*>
+<!ATTLIST example
+    src CDATA #REQUIRED
+>
+<!ELEMENT p (#PCDATA)>
+
+
+
+
+
+
+
+
+
+
+
+
+
