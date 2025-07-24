@@ -1,3 +1,5 @@
+<!-- Курсова работа: Направете речник в oxygen спазвайки изискванията на DTD файла. Включете по 10 значения на всеки глагол -->
+
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE dictionary SYSTEM "dictionary.dtd">
 <!--  -->
